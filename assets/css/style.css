@@ -1,20 +1,23 @@
+/* universal selector - removes default margin and padding from everything */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* applies to <body> */
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  /* apply to <header> */
+  /* applies to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
   }
 
-  /* apply to <h1> elements in the <header> */
+  /* applies to <h1> elements in the <header> */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -23,27 +26,55 @@ header h1 {
     display: inline;
 }
 
-/* apply to <a> elements in the <header> */
+/* applies to <a> elements in the <header> */
 header a {
     text-decoration: none;
     color:#fce138
 }
 
-/* apply to <nav> elements in the <header> */
+/* applies to <nav> elements in the <header> */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* apply to <li> elements, in <ul>, in <nav>, in the <header> */
+/* applies to <li> elements, in <ul>, in <nav>, in the <header> */
 header nav ul li {
     display: inline;
 }
 
-/* apply to <a> elements, in <li>, in <ul>, in <nav>, in the <header> */
+/* applies to <a> elements, in <li>, in <ul>, in <nav>, in the <header> */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
 
+/* applies to <footer> */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* applies to <h2> element in <footer>*/
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* applies to <div> element in <footer> */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* applies to <a> element in <footer> */
+footer a {
+    color: #024e76;
+}
+
+/*  */

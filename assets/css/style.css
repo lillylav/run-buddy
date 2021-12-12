@@ -11,13 +11,13 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  /* applies to <header> */
+
+  /* header style start */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
   }
 
-  /* applies to <h1> elements in the <header> */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -26,56 +26,29 @@ header h1 {
     display: inline;
 }
 
-/* applies to <a> elements in the <header> */
 header a {
     text-decoration: none;
     color:#fce138
 }
 
-/* applies to <nav> elements in the <header> */
+/* nav style start */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* applies to <li> elements, in <ul>, in <nav>, in the <header> */
 header nav ul li {
     display: inline;
 }
 
-/* applies to <a> elements, in <li>, in <ul>, in <nav>, in the <header> */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+/* nav style end */
+/* header style end */
 
-/* applies to <footer> */
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-/* applies to <h2> element in <footer>*/
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-
-/* applies to <div> element in <footer> */
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-
-/* applies to <a> element in <footer> */
-footer a {
-    color: #024e76;
-}
 
 /* applies to <section> elements */
 section {
@@ -102,11 +75,11 @@ section {
     right: 140px;
 }
 
+/* form style start */
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
-
 
 .hero-form p {
     margin: 5px 0 15px 0;
@@ -133,4 +106,53 @@ section {
     padding: 10px 20px;
     font-size: 16px;
 }
+/* form style end */
 /* hero style end */
+
+/* what we do section style start */
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #fce138;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px; 
+    margin: 0 auto;
+}
+/* what we do section style end */
+
+/* footer style start */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+/* footer style end */

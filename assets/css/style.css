@@ -50,10 +50,29 @@ header nav ul li a {
 /* header style end */
 
 
-/* applies to <section> elements */
+/* general content style start */
 section {
     padding: 60px;
 }
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color:#fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/* general content style end */
+
 
 /* hero style start */
 .hero {
@@ -109,18 +128,10 @@ section {
 /* form style end */
 /* hero style end */
 
+
 /* what we do section style start */
 .intro {
     text-align: center;
-}
-
-.intro h2 {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid #fce138;
-    display: inline-block;
 }
 
 .intro p {
@@ -131,6 +142,39 @@ section {
     margin: 0 auto;
 }
 /* what we do section style end */
+
+
+/* what you do section style start */
+.steps {
+    text-align: center;
+    background: #fce138;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+/* what you do section style end */
+
 
 /* footer style start */
 footer {

@@ -11,4 +11,6 @@ A website that offers fitness training services.
 https://lillylav.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Lilly Leiran # run-buddy
+Made with ❤️ by Lilly Leiran
+
+### ©️2019 Run Buddy, Inc 

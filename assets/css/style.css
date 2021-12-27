@@ -255,6 +255,7 @@ header nav ul li a {
 
 .contact-info div {
     color:white;
+
     justify-content: space-between;
     flex-wrap: wrap;
 }

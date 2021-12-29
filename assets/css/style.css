@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: var(--primary-color);
-    --secondary-color: var(--secondary-color);
-    --tertiary-color: var(--tertiary-color);
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
 }
 
 /* applies to <body> */
@@ -46,7 +46,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color:var(--primary-color)
+    color: var(--primary-color);
 }
 
 /* nav style start */
